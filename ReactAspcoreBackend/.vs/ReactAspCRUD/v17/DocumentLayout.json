@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|d:\\intern\\project02\\aspcoremvccrud\\reactaspcorebackend\\reactaspcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|solutionrelative:reactaspcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|d:\\intern\\project02\\aspcoremvccrud\\reactaspcorebackend\\reactaspcrud\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|solutionrelative:reactaspcrud\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|d:\\intern\\project02\\aspcoremvccrud\\reactaspcorebackend\\reactaspcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|solutionrelative:reactaspcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|d:\\intern\\project02\\aspcoremvccrud\\reactaspcorebackend\\reactaspcrud\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|solutionrelative:reactaspcrud\\models\\studentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|d:\\intern\\project02\\aspcoremvccrud\\reactaspcorebackend\\reactaspcrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEB8EDA2-21E2-447A-A2A9-9929E4CCA261}|ReactAspCRUD\\ReactAspCRUD.csproj|solutionrelative:reactaspcrud\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Program.cs",
+              "RelativeDocumentMoniker": "ReactAspCRUD\\Program.cs",
+              "ToolTip": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Program.cs",
+              "RelativeToolTip": "ReactAspCRUD\\Program.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAwDIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:10:25.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "ReactAspCRUD\\Controllers\\StudentController.cs",
+              "ToolTip": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "ReactAspCRUD\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T02:42:38.66Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "ReactAspCRUD\\appsettings.json",
+              "ToolTip": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\appsettings.json",
+              "RelativeToolTip": "ReactAspCRUD\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-02T02:15:53.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentDbContext.cs",
+              "DocumentMoniker": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Models\\StudentDbContext.cs",
+              "RelativeDocumentMoniker": "ReactAspCRUD\\Models\\StudentDbContext.cs",
+              "ToolTip": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Models\\StudentDbContext.cs",
+              "RelativeToolTip": "ReactAspCRUD\\Models\\StudentDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T00:20:48.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "ReactAspCRUD\\Models\\Student.cs",
+              "ToolTip": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\Models\\Student.cs",
+              "RelativeToolTip": "ReactAspCRUD\\Models\\Student.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T21:11:44.563Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

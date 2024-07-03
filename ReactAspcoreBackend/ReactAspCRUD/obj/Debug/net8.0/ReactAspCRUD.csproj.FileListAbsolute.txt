@@ -274,3 +274,7 @@ D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\obj\Debug\ne
 D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\obj\Debug\net8.0\ReactAspCRUD.pdb
 D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\obj\Debug\net8.0\ReactAspCRUD.genruntimeconfig.cache
 D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\obj\Debug\net8.0\ref\ReactAspCRUD.dll
+D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\bin\Debug\net8.0\System.Web.Http.dll
+D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+D:\Intern\Project02\AspCoreMVCCrud\ReactAspcoreBackend\ReactAspCRUD\bin\Debug\net8.0\BCrypt.Net-Next.dll

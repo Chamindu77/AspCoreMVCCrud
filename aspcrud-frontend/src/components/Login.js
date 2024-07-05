@@ -1,3 +1,5 @@
+// Login.js
+
 import axios from 'axios';
 import React, { useState } from 'react';
 import { Link, useNavigate } from "react-router-dom";
@@ -11,15 +13,14 @@ function Login() {
     e.preventDefault();
     try {
       const data = { email, password };
-      const resp = await axios.post(`https://localhost:44311/api/Users/login`, data, { withCredentials: true });
-      console.log('Response:', resp.data);  // Log the full response data
+      const response = await axios.post(`https://localhost:44311/api/Users/login`, data);
 
-      if (resp.data.success) {
-        console.log('Login Successful. Redirecting...');
+      if (response.data.accessToken) {
+        localStorage.setItem('token', response.data.accessToken); // Store token in local storage
         navigateTo("/studentcrud");
         window.alert("Login Successful!");
       } else {
-        console.log('Login failed:', resp.data.message);
+        console.log('Login failed:', response.data.message);
         alert("Invalid Credentials!");
       }
     } catch (error) {
@@ -29,11 +30,11 @@ function Login() {
   };
 
   return (
-    <div className="min-vh-5 d-flex flex-column justify-content-center py-5 mt-5">
+    <div className="min-vh-100 d-flex flex-column justify-content-center py-5 ">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-4">
-            <div className="card border-success " style={{ width: '400px', height: '400px', borderWidth: '3px' }}>
+            <div className="card border-success" style={{ width: '400px', height: '400px', borderWidth: '3px' }}>
               <div className="card-header text-center font-weight-bold h2">Log in</div>
               <div className="card-body d-flex flex-column justify-content-center">
                 <form onSubmit={submitLogin} className="space-y-6" action="#" method="POST">

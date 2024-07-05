@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import NavigationBar from "./Navbar"; // Import the Navbar component
 
 function StudentCrud() {
   const [id, setId] = useState("");
@@ -13,7 +14,7 @@ function StudentCrud() {
 
   async function loadStudents() {
     try {
-      const response = await axios.get("https://localhost:44311/api/Student/GetStudent");
+      const response = await axios.get("https://localhost:44311/api/Student/GetStudents");
       setStudents(response.data);
     } catch (error) {
       console.error("Error loading students:", error);
@@ -80,89 +81,92 @@ function StudentCrud() {
   }
 
   return (
-    <div className="container mt-4">
-      <div className="card">
-        <h5 className="card-header bg-success text-white">Student Details</h5>
-        <div className="card-body">
-          <form onSubmit={save}>
-            <div className="form-group">
-              <input
-                type="text"
-                className="form-control"
-                id="id"
-                hidden
-                value={id}
-                onChange={(event) => setId(event.target.value)}
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="stname">Student Name</label>
-              <input
-                type="text"
-                className="form-control"
-                id="stname"
-                value={stname}
-                onChange={(event) => setName(event.target.value)}
-                required
-              />
-            </div>
-            <div className="form-group">
-              <label htmlFor="course">Course</label>
-              <input
-                type="text"
-                className="form-control"
-                id="course"
-                value={course}
-                onChange={(event) => setCourse(event.target.value)}
-                required
-              />
-            </div>
-            <div className="text-right">
-              <button type="submit" className="btn btn-primary m-3">
-                Register
-              </button>
-              <button type="button" className="btn btn-secondary" onClick={update}>
-                Update
-              </button>
-            </div>
-          </form>
+    <div>
+      <NavigationBar /> {/* Add the Navbar component here */}
+      <div className="container mt-4">
+        <div className="card">
+          <h5 className="card-header bg-success text-white">Student Details</h5>
+          <div className="card-body">
+            <form onSubmit={save}>
+              <div className="form-group">
+                <input
+                  type="text"
+                  className="form-control"
+                  id="id"
+                  hidden
+                  value={id}
+                  onChange={(event) => setId(event.target.value)}
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="stname">Student Name</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="stname"
+                  value={stname}
+                  onChange={(event) => setName(event.target.value)}
+                  required
+                />
+              </div>
+              <div className="form-group">
+                <label htmlFor="course">Course</label>
+                <input
+                  type="text"
+                  className="form-control"
+                  id="course"
+                  value={course}
+                  onChange={(event) => setCourse(event.target.value)}
+                  required
+                />
+              </div>
+              <div className="text-right">
+                <button type="submit" className="btn btn-primary m-3">
+                  Register
+                </button>
+                <button type="button" className="btn btn-secondary" onClick={update}>
+                  Update
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-      </div>
 
-      <div className="mt-4">
-        <table className="table table-striped table-bordered">
-          <thead className="thead-dark">
-            <tr>
-              <th scope="col">Student Id</th>
-              <th scope="col">Student Name</th>
-              <th scope="col">Course</th>
-              <th scope="col">Options</th>
-            </tr>
-          </thead>
-          <tbody>
-            {students.map((student) => (
-              <tr key={student.id}>
-                <td>{student.id}</td>
-                <td>{student.stname}</td>
-                <td>{student.course}</td>
-                <td>
-                  <button
-                    className="btn btn-sm btn-secondary m-1"
-                    onClick={() => editStudent(student)}
-                  >
-                    Edit
-                  </button>
-                  <button
-                    className="btn btn-sm btn-danger"
-                    onClick={() => deleteStudent(student.id)}
-                  >
-                    Delete
-                  </button>
-                </td>
+        <div className="mt-4">
+          <table className="table table-striped table-bordered">
+            <thead className="thead-dark">
+              <tr>
+                <th scope="col">Student Id</th>
+                <th scope="col">Student Name</th>
+                <th scope="col">Course</th>
+                <th scope="col">Options</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {students.map((student) => (
+                <tr key={student.id}>
+                  <td>{student.id}</td>
+                  <td>{student.stname}</td>
+                  <td>{student.course}</td>
+                  <td>
+                    <button
+                      className="btn btn-sm btn-secondary m-1"
+                      onClick={() => editStudent(student)}
+                    >
+                      Edit
+                    </button>
+                    <button
+                      className="btn btn-sm btn-danger"
+                      onClick={() => deleteStudent(student.id)}
+                    >
+                      Delete
+                    </button>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
   );

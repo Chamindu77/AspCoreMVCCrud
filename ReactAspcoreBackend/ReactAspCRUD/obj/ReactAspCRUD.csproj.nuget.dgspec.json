@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj": {}
+    "D:\\Intern\\New folder\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj": {}
   },
   "projects": {
-    "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj": {
+    "D:\\Intern\\New folder\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj",
+        "projectUniqueName": "D:\\Intern\\New folder\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj",
         "projectName": "ReactAspCRUD",
-        "projectPath": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj",
+        "projectPath": "D:\\Intern\\New folder\\ReactAspcoreBackend\\ReactAspCRUD\\ReactAspCRUD.csproj",
         "packagesPath": "C:\\Users\\Acer NItro 5\\.nuget\\packages\\",
-        "outputPath": "D:\\Intern\\Project02\\AspCoreMVCCrud\\ReactAspcoreBackend\\ReactAspCRUD\\obj\\",
+        "outputPath": "D:\\Intern\\New folder\\ReactAspcoreBackend\\ReactAspCRUD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,6 +62,18 @@
               "target": "Package",
               "version": "[5.3.0, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -89,6 +101,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.6.2, )"
             }
           },
           "imports": [

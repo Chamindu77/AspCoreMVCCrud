@@ -1,4 +1,4 @@
-# Simple CRUD Application
+# Simple CRUD Application - ASP.NET Core and React
 
 ### Frontend
 
